@@ -16,7 +16,13 @@ public class Sem9_Lu {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        Mascota ma = new Mascota();
+        ma.tipo = "Felino";
+        ma.nombre="Snarp";
         
+        Brujo br = new Brujo();
+        br.nombre = "Merlin";
+        br.pet=ma;
     }
     
 }

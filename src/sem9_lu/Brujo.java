@@ -9,5 +9,12 @@ package sem9_lu;
  * @author UCC20411
  */
 public class Brujo {
+    public String nombre;
+    public Mascota pet;
     
+    public void Mostrar(){
+    
+        System.out.println("El mascota del brujo "+ this.nombre + " es: " + 
+                this.pet.nombre + " ("+this.pet.tipo+")");
+    }
 }
