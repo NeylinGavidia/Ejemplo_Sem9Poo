@@ -23,6 +23,8 @@ public class Sem9_Lu {
         Brujo br = new Brujo();
         br.nombre = "Merlin";
         br.pet=ma;
+        
+        br.Mostrar();//llamar
     }
     
 }
